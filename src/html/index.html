@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>medara cancer risk assessment home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="css/tailwind/tailwind.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.13.3/dist/cdn.min.js" defer></script>
+<link rel="stylesheet" href="">
+</head>
+<body class="antialiased bg-body text-body font-body">
+    <div class="">
+                
+      <section x-data="{ mobileNavOpen: false }">
+        
+        <div :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}" class="hidden fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+          <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 backdrop-blur-xl backdrop-filter bg-gray-900 bg-opacity-80"></div>
+          <nav class="relative pt-7 pb-8 bg-white h-full overflow-y-auto">
+            <div class="flex flex-col px-6 h-full">
+              <a class="inline-block ml-4 mb-7" href="#">
+                <img src="acros-assets/logo/logo-acros-black.svg" alt="">
+              </a>
+              <ul class="w-full mb-auto pb-16">
+                <li><a class="font-heading block text-base font-medium py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Home</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">About</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Company</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Services</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Testimonials</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Contact</a></li>
+              </ul>
+              <div class="w-full">
+                <a class="block w-full py-4 px-4 mb-4 text-center font-heading font-medium text-base hover:text-green-500 border border-gray-900 hover:border-green-500 rounded-sm transition duration-200" href="#">Log in</a><a class="block w-full py-4 px-4 mb-8 text-center font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="#">Sign up</a>
+                <p class="pl-2 text-sm">2022 © Shuffle</p>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+                
+      <section x-data="{ mobileNavOpen: false }">
+        <nav class="py-4 bg-white">
+          <div class="container mx-auto px-4">
+            <div class="relative flex items-center justify-between">
+              <div class="w-auto">
+                <a class="inline-block" href="#">
+                  <img src="images/noBgColor-png-1752167288654.webp" alt="">
+                </a>
+              </div>
+              <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:block">
+                <ul class="flex items-center">
+                  <li class="font-heading mr-12 text-base"><a class="hover:text-black" href="#">About</a></li>
+                  <li class="font-heading mr-12 text-base"><a class="hover:text-black" href="#">Company</a></li>
+                  <li class="font-heading mr-12 text-base"><a class="hover:text-black" href="#">Services</a></li>
+                  <li class="font-heading mr-12 text-base"><a class="hover:text-black" href="#">Testimonials</a></li>
+                </ul>
+              </div>
+              <div class="w-auto hidden lg:block"><a class="inline-block py-4 px-8 font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="#">Contact</a></div>
+              <div class="w-auto lg:hidden">
+                <button x-on:click="mobileNavOpen = !mobileNavOpen" class="inline-flex w-14 h-14 justify-center items-center bg-gray-500 hover:bg-gray-600 rounded-full">
+                  <svg width="20" height="10" viewbox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19 9H1M19 1H1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="pt-24 sm:pt-34 pb-8 bg-cover" style="background-image: url('images/photo-1587664289285-e6fb47cbe370-1752163934279-webp-1752167927563.webp');">
+          <div class="container px-4 mx-auto">
+            <div class="max-w-2xl xl:max-w-4xl mx-auto text-center">
+              <div class="text-sm mb-2 font-semibold text-white uppercase">
+                
+                
+              </div>
+              <h1 class="font-heading text-4xl md:text-5xl text-white mb-6">A New Era in Cancer Risk Prediction</h1>
+              <p class="max-w-md md:max-w-lg mx-auto text-lg leading-8 text-white mb-10">AI- Powered, Comprehensive Image-Based Risk Prediction</p>
+              <div class="sm:flex items-center justify-center mb-24">
+      <a class="inline-block w-full sm:w-auto py-4 px-6 mb-4 sm:mb-0 sm:mr-4 text-center font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="#">Track your performance</a><a class="inline-block w-full sm:w-auto py-4 px-6 text-center font-heading font-medium text-base text-white hover:text-green-500 border border-white hover:border-green-500 rounded-sm transition duration-150" href="#">Learn more</a>
+      </div>
+              <a class="inline-block text-white" href="#">
+                <svg width="26" height="30" viewbox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13 1V29M13 29L25 17M13 29L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div :class="{'block': mobileNavOpen, 'hidden': !mobileNavOpen}" class="hidden fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+          <div x-on:click="mobileNavOpen = !mobileNavOpen" class="fixed inset-0 backdrop-blur-xl backdrop-filter bg-gray-900 bg-opacity-80"></div>
+          <nav class="relative pt-7 pb-8 bg-white h-full overflow-y-auto">
+            <div class="flex flex-col px-6 h-full">
+              <a class="inline-block ml-4 mb-7" href="#">
+                <img src="acros-assets/logo/logo-acros-black.svg" alt="">
+              </a>
+              <ul class="w-full mb-auto pb-16">
+                <li><a class="font-heading block text-base font-medium py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Home</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">About</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Company</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Services</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Testimonials</a></li>
+                <li><a class="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Contact</a></li>
+              </ul>
+              <div class="w-full">
+                <a class="block w-full py-4 px-4 mb-4 text-center font-heading font-medium text-base hover:text-green-500 border border-gray-900 hover:border-green-500 rounded-sm transition duration-200" href="#">Log in</a><a class="block w-full py-4 px-4 mb-8 text-center font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="#">Sign up</a>
+                <p class="pl-2 text-sm">2022 © Shuffle</p>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </section>
+                
+      <div class="container mx-auto"><div class="container mx-auto"><div class="container mx-auto"><section class="py-16 bg-gray-50">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap items-start -mx-4">
+            <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-12 lg:mb-0">
+              <div class="max-w-xxs">
+                <h4 class="font-heading text-3xl sm:text-4xl mb-4">4,5K+</h4>
+                <span class="leading-7">Lorem Ipsum generators on the Internet</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-12 lg:mb-0">
+              <div class="max-w-xxs">
+                <h4 class="font-heading text-3xl sm:text-4xl mb-4">400+</h4>
+                <span class="leading-7">Contrary to popular belief, Lorem Ipsum</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 lg:w-1/4 px-4 mb-12 sm:mb-0">
+              <div class="max-w-xxs">
+                <h4 class="font-heading text-3xl sm:text-4xl mb-4">1K+</h4>
+                <span class="text-sm">The first line of Lorem Ipsum</span>
+              </div>
+            </div>
+            <div class="w-full sm:w-1/2 lg:w-1/4 px-4">
+              <div class="max-w-xxs">
+                <h4 class="font-heading text-3xl sm:text-4xl mb-4">4,5K+</h4>
+                <span class="text-sm">Therefore always free from repetition, injected humour</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      </div>
+      <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+      </div>
+      </div>
+      </div>
+                
+      <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+      </div>
+                
+      <section class="py-16">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap items-center -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">
+              <div class="max-w-md xl:max-w-lg mx-auto xl:mx-0">
+                <div class="text-sm mb-2 font-semibold text-gray-900 uppercase">
+                  <span>How it</span>
+                  <span class="text-green-500">Works</span>
+                </div>
+                <h1 class="font-heading text-3xl sm:text-4xl mb-6">Starting with Breast Cancer</h1>
+                <p class="max-w-sm text-lg leading-8 mb-8">If you have ever wondered how to develop your brand, this is the place for you.</p>
+                <a class="inline-block w-full sm:w-auto py-4 px-6 text-center font-heading font-medium text-base text-gray-900 hover:text-green-500 border border-gray-900 hover:border-green-500 rounded-sm transition duration-150" href="#">Learn more</a>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+              <div class="max-w-lg mx-auto py-10 pl-4 pr-6 sm:px-12 xl:px-20 bg-gray-50 rounded-md">
+                <div>
+                  <div class="flex mb-10">
+                    <div class="relative flex-shrink-0 flex items-center justify-center w-16 h-16 mr-10 bg-white rounded">
+                      <div class="absolute bottom-0 right-0 -mb-3 -mr-3 flex items-center justify-center w-6 h-6 text-xs font-semibold text-gray-900 bg-gray-200 rounded-full">1</div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewbox="0 0 20 24" fill="none" class="">                        <path d="M19.468 1.47802C19.342 1.15003 18.858 1.07803 18.636 1.314C17.631 2.199 16.342 2.685 15.001 2.685C13.153 2.685 11.439 1.76498 10.418 0.224016C10.3251 0.084 10.1691 0 10.0011 0C9.83404 0 9.67705 0.084 9.58504 0.222984C8.56105 1.764 6.84702 2.68397 4.99902 2.68397C3.64302 2.68397 2.34102 2.18695 1.33302 1.28395C1.18602 1.15195 0.976024 1.11994 0.795039 1.19995C0.615039 1.27997 0.499023 1.45894 0.499023 1.65595V12.4989C0.499023 18.7429 9.37902 23.7279 9.75702 23.937C9.83202 23.979 9.91602 24 9.99904 24C10.0821 24 10.1661 23.979 10.2411 23.939C10.6191 23.73 19.4991 18.744 19.4991 12.501V1.70095C19.5051 1.626 19.495 1.55002 19.468 1.47802Z" fill="#004aac"></path>                        <path d="M6.25 11.4167L8.75 13.9167L13.75 8.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>                      </svg>
+                      <div class="hidden sm:block absolute top-full left-1/2 mt-4 transform -translate-x-1/2 h-18 w-px bg-gray-100"></div>
+                    </div>
+                    <div>
+                      <h3 class="font-heading text-lg font-medium mb-4">Repeat predefined</h3>
+                      <p class="max-w-xxs leading-7">Take care to develop resources continually and integrity them with previous projects.</p>
+                    </div>
+                  </div>
+                  <div class="flex mb-10">
+                    <div class="relative flex flex-shrink-0 items-center justify-center w-16 h-16 mr-10 bg-white rounded">
+                      <div class="absolute bottom-0 right-0 -mb-3 -mr-3 flex items-center justify-center w-6 h-6 text-xs font-semibold text-gray-900 bg-gray-200 rounded-full">2</div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 20 20" fill="none" class="">                        <path d="M14.0203 8.91334C15.8413 8.91334 17.3173 7.43734 17.3173 5.61634C17.3173 3.79634 15.8413 2.31934 14.0203 2.31934" stroke="#004aac" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>                        <path d="M15.5364 12.4963C16.0804 12.5333 16.6204 12.6113 17.1534 12.7293C17.8924 12.8763 18.7824 13.1793 19.0984 13.8423C19.3004 14.2673 19.3004 14.7623 19.0984 15.1873C18.7834 15.8503 17.8924 16.1533 17.1534 16.3053" stroke="#004aac" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.59149 13.2063C11.2815 13.2063 14.4335 13.7653 14.4335 15.9983C14.4335 18.2323 11.3015 18.8103 7.59149 18.8103C3.90149 18.8103 0.750488 18.2523 0.750488 16.0183C0.750488 13.7843 3.88149 13.2063 7.59149 13.2063Z" fill="#00CBA6" stroke="#00CBA6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.59152 10.0188C5.15752 10.0188 3.20752 8.06776 3.20752 5.63376C3.20752 3.20076 5.15752 1.24976 7.59152 1.24976C10.0255 1.24976 11.9765 3.20076 11.9765 5.63376C11.9765 8.06776 10.0255 10.0188 7.59152 10.0188Z" fill="#004aac" stroke="#004aac" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>                      </svg>
+                      <div class="hidden sm:block absolute top-full left-1/2 mt-4 transform -translate-x-1/2 h-18 w-px bg-gray-100"></div>
+                    </div>
+                    <div>
+                      <h3 class="font-heading text-lg font-medium mb-4">Classical Latin literature</h3>
+                      <p class="max-w-xxs leading-7">Take care to develop resources continually and integrity them with previous projects.</p>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <div class="relative flex flex-shrink-0 items-center justify-center w-16 h-16 mr-10 bg-white rounded">
+                      <div class="absolute bottom-0 right-0 -mb-3 -mr-3 flex items-center justify-center w-6 h-6 text-xs font-semibold text-gray-900 bg-gray-200 rounded-full">3</div>
+                      <svg width="18" height="20" viewbox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.7368 0.761963H5.08376C3.02476 0.761963 1.24976 2.43096 1.24976 4.49096V15.204C1.24976 17.38 2.90876 19.115 5.08376 19.115H13.0728C15.1328 19.115 16.8018 17.265 16.8018 15.204V6.03796L11.7368 0.761963Z" fill="#00CBA6" stroke="#00CBA6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M11.677 0.518122V3.42712C11.677 4.84712 12.826 5.99912 14.245 6.00212C15.562 6.00512 16.909 6.00612 17 6.00012" fill="#80E5D3"></path>
+                        <path d="M11.677 0.518122V3.42712C11.677 4.84712 12.826 5.99912 14.245 6.00212C15.562 6.00512 16.909 6.00612 17 6.00012L11.677 0.518122Z" stroke="#80E5D3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M11.284 13.5579H5.88696" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M9.24247 8.60571H5.88647" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 class="font-heading text-lg font-medium mb-4">Lorem Ipsum passage</h3>
+                      <p class="max-w-xxs leading-7">Take care to develop resources continually and integrity them with previous projects.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                
+      <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+      </div>
+                
+      <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+      </div>
+                
+      <section class="py-16" x-data="{ slideWidth: 0, activeSlide: 0, slideCount: 3 }">
+        <div class="container px-4 mx-auto">
+          <div class="p-4 sm:p-8 bg-gray-50 rounded-md">
+              <div class="overflow-hidden">
+                  <div :style="'transform: translateX(-' + slideWidth + 'px)'" class="flex transition-transform duration-500 ease-in-out -m-5">
+                      <div x-ref="slide1" class="flex-shrink-0 w-full p-5">
+                          <div class="flex flex-wrap items-center -mx-4">
+                            <div class="w-full lg:w-1/3 px-4 mb-16 lg:mb-0">
+                              <img class="block w-full h-112 mx-auto rounded object-cover object-top" src="acros-assets/images/testimonials/man-medium.jpg" alt="">
+                            </div>
+                            <div class="w-full lg:w-2/3 px-4">
+                              <div class="max-w-2xl mx-auto">
+                                <svg width="24" height="16" viewbox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.959961 16C2.41063 14.72 3.62663 13.3973 4.60796 12.032C5.58929 10.624 6.22929 9.30133 6.52796 8.064H6.39996C5.20529 8.064 4.28796 7.68 3.64796 6.912C3.00796 6.144 2.68796 5.26933 2.68796 4.288V3.904C2.68796 2.79467 3.05063 1.87733 3.77596 1.152C4.50129 0.384 5.46129 0 6.65596 0C7.89329 0 8.85329 0.405333 9.53596 1.216C10.2613 2.02667 10.624 3.008 10.624 4.16V4.736C10.624 5.67467 10.4533 6.656 10.112 7.68C9.77063 8.704 9.3013 9.728 8.70396 10.752C8.1493 11.776 7.46663 12.736 6.65596 13.632C5.88796 14.528 5.05596 15.3173 4.15996 16H0.959961ZM13.376 16C14.8266 14.72 16.0426 13.3973 17.024 12.032C18.0053 10.624 18.6453 9.30133 18.944 8.064H18.816C17.6213 8.064 16.704 7.68 16.064 6.912C15.424 6.144 15.104 5.26933 15.104 4.288V3.904C15.104 2.79467 15.4666 1.87733 16.192 1.152C16.9173 0.384 17.8773 0 19.072 0C20.3093 0 21.2693 0.405333 21.952 1.216C22.6773 2.02667 23.04 3.008 23.04 4.16V4.736C23.04 5.67467 22.8693 6.656 22.528 7.68C22.1866 8.704 21.7173 9.728 21.12 10.752C20.5653 11.776 19.8826 12.736 19.072 13.632C18.304 14.528 17.472 15.3173 16.576 16H13.376Z" fill="#00CBA6"></path>
+                                </svg>
+                                <h3 class="font-heading text-2xl md:text-3xl mt-2 mb-6">The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</h3>
+                                <p class="max-w-md text-lg leading-8 mb-10">If you have ever wondered how to develop your brand, this is the place for you.</p>
+                                <div class="sm:flex items-center justify-between">
+                                  <div class="flex items-center mb-6 sm:mb-0">
+                                    <img class="rounded-full mr-6" src="acros-assets/images/testimonials/man-56x56.png" alt="">
+                                    <div>
+                                      <h4 class="font-heading font-medium mb-1">Denny Bailey</h4>
+                                      <span class="text-gray-300">CEO &amp; Founder</span>
+                                    </div>
+                                  </div>
+                                  <div class="flex items-center justify-end">
+                                    <a x-on:click.prevent="activeSlide = 0, slideWidth = $refs['slide1'].offsetWidth * 0" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-gray-900" :class="{ 'border-gray-900': activeSlide == 0, 'border-transparent': activeSlide != 0 }" href="#">
+                                        <div class="w-1 h-1 rounded-full" :class="{ 'bg-transparent': activeSlide == 1, 'bg-gray-900': activeSlide != 0 }"></div>
+                                    </a>
+                                    <a x-on:click.prevent="activeSlide = 1, slideWidth = $refs['slide2'].offsetWidth * 1" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-transparent" :class="{ 'border-gray-900': activeSlide == 1, 'border-transparent': activeSlide != 1 }" href="#">
+                                        <div class="w-1 h-1 rounded-full bg-gray-900" :class="{ 'bg-transparent': activeSlide == 2, 'bg-gray-900': activeSlide != 1 }"></div>
+                                    </a>
+                                    <a x-on:click.prevent="activeSlide = 2, slideWidth = $refs['slide3'].offsetWidth * 2" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-transparent" :class="{ 'border-gray-900': activeSlide == 2, 'border-transparent': activeSlide != 2 }" href="#">
+                                        <div class="w-1 h-1 rounded-full bg-gray-900" :class="{ 'bg-transparent': activeSlide == 3, 'bg-gray-900': activeSlide != 2 }"></div>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div x-ref="slide2" class="flex-shrink-0 w-full p-5">
+                          <div class="flex flex-wrap items-center -mx-4">
+                            <div class="w-full lg:w-1/3 px-4 mb-16 lg:mb-0">
+                              <img class="block w-full h-112 mx-auto rounded object-cover object-top" src="acros-assets/images/testimonials/man-medium.jpg" alt="">
+                            </div>
+                            <div class="w-full lg:w-2/3 px-4">
+                              <div class="max-w-2xl mx-auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewbox="0 0 24 16" fill="none" class="">                                <path d="M0.959999 16C2.41067 14.72 3.62667 13.3973 4.608 12.032C5.58933 10.624 6.22933 9.30133 6.528 8.064H6.4C5.20533 8.064 4.288 7.68 3.648 6.912C3.008 6.144 2.688 5.26933 2.688 4.288V3.904C2.688 2.79467 3.05067 1.87733 3.776 1.152C4.50133 0.384 5.46133 0 6.656 0C7.89333 0 8.85333 0.405333 9.536 1.216C10.2613 2.02667 10.624 3.008 10.624 4.16V4.736C10.624 5.67467 10.4533 6.656 10.112 7.68C9.77067 8.704 9.30133 9.728 8.704 10.752C8.14933 11.776 7.46667 12.736 6.656 13.632C5.888 14.528 5.056 15.3173 4.16 16H0.959999ZM13.376 16C14.8267 14.72 16.0427 13.3973 17.024 12.032C18.0053 10.624 18.6453 9.30133 18.944 8.064H18.816C17.6213 8.064 16.704 7.68 16.064 6.912C15.424 6.144 15.104 5.26933 15.104 4.288V3.904C15.104 2.79467 15.4667 1.87733 16.192 1.152C16.9173 0.384 17.8773 0 19.072 0C20.3093 0 21.2693 0.405333 21.952 1.216C22.6773 2.02667 23.04 3.008 23.04 4.16V4.736C23.04 5.67467 22.8693 6.656 22.528 7.68C22.1867 8.704 21.7173 9.728 21.12 10.752C20.5653 11.776 19.8827 12.736 19.072 13.632C18.304 14.528 17.472 15.3173 16.576 16H13.376Z" fill="#004aac"></path>                              </svg>
+                                <h3 class="font-heading text-2xl md:text-3xl mt-2 mb-6">Crafting Compelling Brand Narratives: A Guide to Authenticity and Engagement.</h3>
+                                <p class="max-w-md text-lg leading-8 mb-10">Unlock the secrets to building a memorable brand identity that resonates with your audience.</p>
+                                <div class="sm:flex items-center justify-between">
+                                  <div class="flex items-center mb-6 sm:mb-0">
+                                    <img class="rounded-full mr-6" src="acros-assets/images/testimonials/man-56x56.png" alt="">
+                                    <div>
+                                      <h4 class="font-heading font-medium mb-1">Emily Chen</h4>
+                                      <span class="text-gray-300">Marketing Strategist</span>
+                                    </div>
+                                  </div>
+                                  <div class="flex items-center justify-end">
+                                    <a x-on:click.prevent="activeSlide = 0, slideWidth = $refs['slide1'].offsetWidth * 0" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-gray-900" :class="{ 'border-gray-900': activeSlide == 0, 'border-transparent': activeSlide != 0 }" href="#">
+                                        <div class="w-1 h-1 rounded-full" :class="{ 'bg-transparent': activeSlide == 1, 'bg-gray-900': activeSlide != 0 }"></div>
+                                    </a>
+                                    <a x-on:click.prevent="activeSlide = 1, slideWidth = $refs['slide2'].offsetWidth * 1" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-transparent" :class="{ 'border-gray-900': activeSlide == 1, 'border-transparent': activeSlide != 1 }" href="#">
+                                        <div class="w-1 h-1 rounded-full bg-gray-900" :class="{ 'bg-transparent': activeSlide == 2, 'bg-gray-900': activeSlide != 1 }"></div>
+                                    </a>
+                                    <a x-on:click.prevent="activeSlide = 2, slideWidth = $refs['slide3'].offsetWidth * 2" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-transparent" :class="{ 'border-gray-900': activeSlide == 2, 'border-transparent': activeSlide != 2 }" href="#">
+                                        <div class="w-1 h-1 rounded-full bg-gray-900" :class="{ 'bg-transparent': activeSlide == 3, 'bg-gray-900': activeSlide != 2 }"></div>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div x-ref="slide3" class="flex-shrink-0 w-full p-5">
+                          <div class="flex flex-wrap items-center -mx-4">
+                            <div class="w-full lg:w-1/3 px-4 mb-16 lg:mb-0">
+                              <img class="block w-full h-112 mx-auto rounded object-cover object-top" src="acros-assets/images/testimonials/man-medium.jpg" alt="">
+                            </div>
+                            <div class="w-full lg:w-2/3 px-4">
+                              <div class="max-w-2xl mx-auto">
+                                <svg width="24" height="16" viewbox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M0.959961 16C2.41063 14.72 3.62663 13.3973 4.60796 12.032C5.58929 10.624 6.22929 9.30133 6.52796 8.064H6.39996C5.20529 8.064 4.28796 7.68 3.64796 6.912C3.00796 6.144 2.68796 5.26933 2.68796 4.288V3.904C2.68796 2.79467 3.05063 1.87733 3.77596 1.152C4.50129 0.384 5.46129 0 6.65596 0C7.89329 0 8.85329 0.405333 9.53596 1.216C10.2613 2.02667 10.624 3.008 10.624 4.16V4.736C10.624 5.67467 10.4533 6.656 10.112 7.68C9.77063 8.704 9.3013 9.728 8.70396 10.752C8.1493 11.776 7.46663 12.736 6.65596 13.632C5.88796 14.528 5.05596 15.3173 4.15996 16H0.959961ZM13.376 16C14.8266 14.72 16.0426 13.3973 17.024 12.032C18.0053 10.624 18.6453 9.30133 18.944 8.064H18.816C17.6213 8.064 16.704 7.68 16.064 6.912C15.424 6.144 15.104 5.26933 15.104 4.288V3.904C15.104 2.79467 15.4666 1.87733 16.192 1.152C16.9173 0.384 17.8773 0 19.072 0C20.3093 0 21.2693 0.405333 21.952 1.216C22.6773 2.02667 23.04 3.008 23.04 4.16V4.736C23.04 5.67467 22.8693 6.656 22.528 7.68C22.1866 8.704 21.7173 9.728 21.12 10.752C20.5653 11.776 19.8826 12.736 19.072 13.632C18.304 14.528 17.472 15.3173 16.576 16H13.376Z" fill="#00CBA6"></path>
+                                </svg>
+                                <h3 class="font-heading text-2xl md:text-3xl mt-2 mb-6">Elevate Your Brand: Unveiling the Power of Unique Messaging</h3>
+                                <p class="max-w-md text-lg leading-8 mb-10">Discover the art of creating captivating brand narratives that captivate and convert.</p>
+                                <div class="sm:flex items-center justify-between">
+                                  <div class="flex items-center mb-6 sm:mb-0">
+                                    <img class="rounded-full mr-6" src="acros-assets/images/testimonials/man-56x56.png" alt="">
+                                    <div>
+                                      <h4 class="font-heading font-medium mb-1">Alex Rodriguez</h4>
+                                      <span class="text-gray-300">Creative Director</span>
+                                    </div>
+                                  </div>
+                                  <div class="flex items-center justify-end">
+                                    <a x-on:click.prevent="activeSlide = 0, slideWidth = $refs['slide1'].offsetWidth * 0" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-gray-900" :class="{ 'border-gray-900': activeSlide == 0, 'border-transparent': activeSlide != 0 }" href="#">
+                                        <div class="w-1 h-1 rounded-full" :class="{ 'bg-transparent': activeSlide == 1, 'bg-gray-900': activeSlide != 0 }"></div>
+                                    </a>
+                                    <a x-on:click.prevent="activeSlide = 1, slideWidth = $refs['slide2'].offsetWidth * 1" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-transparent" :class="{ 'border-gray-900': activeSlide == 1, 'border-transparent': activeSlide != 1 }" href="#">
+                                        <div class="w-1 h-1 rounded-full bg-gray-900" :class="{ 'bg-transparent': activeSlide == 2, 'bg-gray-900': activeSlide != 1 }"></div>
+                                    </a>
+                                    <a x-on:click.prevent="activeSlide = 2, slideWidth = $refs['slide3'].offsetWidth * 2" class="group inline-flex items-center justify-center w-4 h-4 mr-2 rounded-full border border-transparent" :class="{ 'border-gray-900': activeSlide == 2, 'border-transparent': activeSlide != 2 }" href="#">
+                                        <div class="w-1 h-1 rounded-full bg-gray-900" :class="{ 'bg-transparent': activeSlide == 3, 'bg-gray-900': activeSlide != 2 }"></div>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </section>
+                
+      <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+      </div>
+                
+      <div class="flex flex-wrap -mx-4 -mb-4 md:mb-0">
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+        <div class="w-full md:w-1/2 px-4 mb-4 md:mb-0"></div>
+      </div>
+                
+      <section class="py-16 bg-gray-50">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap items-center -mx-4">
+            <div class="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">
+              <div class="max-w-lg mx-auto lg:mx-0 mb-6">
+                <span class="text-sm font-semibold uppercase">
+                  <span>SIGN UP FOR OUR</span>
+                  <span class="text-green-500">UPDATES</span>
+                </span>
+                <h2 class="font-heading text-3xl sm:text-4xl mt-2">The standard chunk of Lorem Ipsum used since the 1500s</h2>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-4">
+              <div class="max-w-lg mx-auto lg:mr-0 py-10 px-6 sm:px-12 bg-white rounded-md">
+                <h3 class="font-heading font-medium text-2xl mb-4">Sign up for our updates</h3>
+                <p class="leading-7 mb-8">There are many variations of passages of Lorem Ipsum available</p>
+                <form action="">
+                  <input class="block w-full p-4 mb-4 font-heading text-gray-300 placeholder-gray-300 border border-gray-100 rounded-sm outline-none" type="text" placeholder="Name">
+                  <input class="block w-full p-4 mb-4 font-heading text-gray-300 placeholder-gray-300 border border-gray-100 rounded-sm outline-none" type="email" placeholder="E-mail">
+                  <button class="inline-block w-full py-4 px-6 text-center font-heading font-medium text-white text-base bg-green-500 hover:bg-green-600 rounded-sm transition duration-200" type="submit">Sign up</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+                
+      <section class="py-24 bg-gray-900">
+        <div class="container px-4 mx-auto">
+          <div class="flex flex-wrap justify-between -mx-4 pb-20">
+            <div class="w-full lg:w-1/4 xl:w-2/6 px-4 mb-16 lg:mb-0">
+              <a class="inline-block mb-4" href="#">
+                <img src="images/White-logo-no-background-png-1752167098784.webp" alt="">
+              </a>
+              <span class="block text-gray-300 mb-6">2022 © Shuffle</span>
+              <a class="inline-block font-heading text-white hover:text-gray-100 mr-8" href="#">Terms</a><a class="inline-block font-heading text-white hover:text-gray-100" href="#">Privacy</a>
+            </div>
+            <div class="w-full sm:w-1/2 lg:w-1/4 xl:w-auto xl:mr-6 px-4 mb-16 lg:mb-0">
+              <h4 class="font-heading text-lg text-white mb-6">Contact</h4>
+              <div class="flex items-center mb-2">
+                <div class="flex items-center justify-center w-10 h-10 mr-3 border border-gray-500 rounded-full">
+                  <svg width="14" height="14" viewbox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M0.993636 2.24838C1.20452 1.89921 2.36641 0.629197 3.19556 0.667537C3.44341 0.688076 3.66251 0.838013 3.84053 1.01191C4.24928 1.41106 5.41939 2.9207 5.48581 3.23837C5.64739 4.01749 4.71897 4.46662 5.00311 5.25191C5.7275 7.02445 6.97566 8.27255 8.74898 8.99622C9.53362 9.28034 9.98277 8.35197 10.7619 8.51423C11.0789 8.58064 12.5893 9.75069 12.9885 10.1594C13.1617 10.3367 13.3124 10.5565 13.3329 10.8044C13.3637 11.6773 12.0149 12.8555 11.752 13.0062C11.1317 13.4498 10.3224 13.4423 9.33575 12.9836C6.58266 11.8382 2.18292 7.5215 1.01623 4.66448C0.56982 3.68339 0.53901 2.86866 0.993636 2.24838Z" fill="#00CBA6"></path>
+                  </svg>
+                </div>
+                <span class="font-heading text-white">+44 20 6024 2068</span>
+              </div>
+              <div class="flex items-center mb-4">
+                <div class="flex items-center justify-center w-10 h-10 mr-3 border border-gray-500 rounded-full">
+                  <svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.59183 2.33337H10.8771C11.7834 2.34354 12.6459 2.72666 13.2639 3.39351C13.8819 4.06036 14.2014 4.95273 14.1479 5.86279V10.2147C14.2014 11.1248 13.8819 12.0171 13.2639 12.684C12.6459 13.3508 11.7834 13.734 10.8771 13.7441H4.59183C2.64523 13.7441 1.33325 12.1605 1.33325 10.2147V5.86279C1.33325 3.91701 2.64523 2.33337 4.59183 2.33337Z" fill="#00CBA6" stroke="#00CBA6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M11.5118 6.04077L8.66819 8.33029C8.13004 8.7522 7.37566 8.7522 6.83752 8.33029L3.96948 6.04077" stroke="#1F2E3F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg>
+                </div>
+                <span class="font-heading text-white">info@medara.co</span>
+              </div>
+              <span class="block text-sm text-gray-300">medara, Inc.</span>
+              <span class="block text-sm text-gray-300">11 E Loop Rd Suite 381</span>
+              <span class="block text-sm text-gray-300">New York, NY 10044</span>
+            </div>
+            <div class="w-full sm:w-1/2 lg:w-1/4 xl:w-auto xl:mr-20 px-4 mb-16 lg:mb-0">
+              <h4 class="font-heading text-lg text-white mb-8">Pages</h4>
+              <ul>
+                <li class="mb-6"><a class="font-heading text-white hover:text-gray-100" href="#">About</a></li>
+                <li class="mb-6"><a class="font-heading text-white hover:text-gray-100" href="#">Careers</a></li>
+                <li class="mb-6"><a class="font-heading text-white hover:text-gray-100" href="#">Press</a></li>
+                <li><a class="font-heading text-white hover:text-gray-100" href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="w-full lg:w-1/4 xl:w-auto px-4">
+              
+              
+            </div>
+          </div>
+        </div>
+      </section>
+                
+      <div></div>
+    </div>
+</body>
+</html>
+

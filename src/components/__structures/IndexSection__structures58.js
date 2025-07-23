@@ -1,0 +1,208 @@
+import React from 'react';
+
+export default function IndexSection__structures58() {
+    return (
+        <React.Fragment>
+            <>
+                <div><div>
+    <section className="bs-section-dragged">
+      <nav className="py-4 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="relative flex items-center justify-between">
+            <div className="w-auto">
+              <a className="inline-block" href="#">
+                <img src="https://static.shuffle.dev/uploads/files/89/891aed3d3e1847e9f17b379d6d326119edf7f96f/medara-small.png" alt />
+              </a>
+            </div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden lg:block">
+              <ul className="flex items-center">
+                <li className="font-heading mr-12 text-base">
+                </li>
+                <li className="font-heading mr-12 text-base"><a className="hover:text-black" href="#">For Patients</a></li>
+                <li className="font-heading mr-12 text-base"><a className="hover:text-black" href="#">For Patients</a></li>
+                <li className="font-heading mr-12 text-base"><a className="hover:text-black" href="#">About medara</a></li>
+                <li className="font-heading mr-12 text-base"><a className="hover:text-black" href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div className="w-auto hidden lg:block"><a className="inline-block py-4 px-8 font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200 rounded-b" href="#">Contact</a></div>
+            <div className="w-auto lg:hidden">
+              <button className="inline-flex w-14 h-14 justify-center items-center bg-gray-500 hover:bg-gray-600 rounded-full" fdprocessedid="k15hg">
+                <svg width={20} height={10} viewBox="0 0 20 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M19 9H1M19 1H1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div className="pt-24 sm:pt-34 pb-8 bg-cover" style={{backgroundImage: 'url("https://static.shuffle.dev/uploads/files/89/891aed3d3e1847e9f17b379d6d326119edf7f96f/photo-1587664289285-e6fb47cbe370-1752163934279-webp-1752167927563.webp")'}}>
+        <div className="container px-4 mx-auto">
+          <div className="max-w-2xl xl:max-w-4xl mx-auto text-center">
+            <div className="text-sm mb-2 font-semibold text-white uppercase" />
+            <h1 className="font-heading text-4xl md:text-5xl text-white mb-6">A New Era in Cancer Risk Prediction</h1>
+            <div className="sm:flex items-center justify-center mb-24"><a className="inline-block w-full sm:w-auto py-4 px-6 mb-4 sm:mb-0 sm:mr-4 text-center font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200 rounded-b" href="#">Track your performance</a><a className="inline-block w-full sm:w-auto py-4 px-6 text-center font-heading font-medium text-base text-white hover:text-green-500 border border-white hover:border-green-500 rounded-sm transition duration-150 rounded-b" href="#">Learn more</a></div>
+            <a className="inline-block text-white" href="#">
+              <svg width={26} height={30} viewBox="0 0 26 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 1V29M13 29L25 17M13 29L1 17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="hidden fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+        <div className="fixed inset-0 backdrop-blur-xl backdrop-filter bg-gray-900 bg-opacity-80" />
+        <nav className="relative pt-7 pb-8 bg-white h-full overflow-y-auto">
+          <div className="flex flex-col px-6 h-full">
+            <a className="inline-block ml-4 mb-7" href="#">
+              <img src="acros-assets/logo/logo-acros-black.svg" alt />
+            </a>
+            <ul className="w-full mb-auto pb-16">
+              <li><a className="font-heading block text-base font-medium py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Home</a></li>
+              <li><a className="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">About</a></li>
+              <li><a className="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Company</a></li>
+              <li><a className="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Services</a></li>
+              <li><a className="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Testimonials</a></li>
+              <li><a className="font-heading block text-base py-4 px-6 hover:bg-green-50 rounded-sm" href="#">Contact</a></li>
+            </ul>
+            <div className="w-full">
+              <a className="block w-full py-4 px-4 mb-4 text-center font-heading font-medium text-base hover:text-green-500 border border-gray-900 hover:border-green-500 rounded-sm transition duration-200" href="#">Log in</a><a className="block w-full py-4 px-4 mb-8 text-center font-heading font-medium text-base text-white bg-green-500 hover:bg-green-600 border border-green-500 hover:border-green-600 rounded-sm transition duration-200" href="#">Sign up</a>
+              <p className="pl-2 text-sm">2022 © Shuffle</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <section className="py-16 bg-gray-50">
+      <div className="container px-4 mx-auto">
+        <div className="flex flex-wrap items-center -mx-4">
+          <div className="w-full lg:w-1/2 px-4 mb-16 lg:mb-0">
+            <div className="max-w-md md:max-w-lg mx-auto lg:mx-0 mb-6">
+              <span className="text-sm font-semibold uppercase">
+                <span>by THE</span>
+                <span className="text-green-500">numbers</span>
+              </span>
+              <h2 className="font-heading text-3xl sm:text-4xl mt-4">Starting with Breast Cancer</h2>
+            </div>
+          </div>
+          <div className="w-full lg:w-1/2 px-4">
+            <div className="flex flex-wrap -mx-4">
+              <div className="w-full sm:w-1/2 px-4 sm:mt-16 mb-8 sm:mb-0">
+                <div className="p-6 mb-8 bg-white rounded">
+                  <div className="flex items-center justify-center w-14 h-14 mb-8 bg-green-50 rounded">
+                    <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fillRule="evenodd" clipRule="evenodd" d="M12.02 2C6.21 2 2 6.74612 2 12.015C2 13.6975 2.49 15.4291 3.35 17.0115C3.51 17.2729 3.53 17.6024 3.42 17.9139L2.75 20.1572C2.6 20.698 3.06 21.0976 3.57 20.9374L5.59 20.3375C6.14 20.1572 6.57 20.3866 7.08 20.698C8.54 21.5583 10.36 22 12 22C16.96 22 22 18.1642 22 11.985C22 6.65598 17.7 2 12.02 2Z" fill="#00CBA6" stroke="#00CBA6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path fillRule="evenodd" clipRule="evenodd" d="M7.69518 13.3909C7.05042 13.3909 6.52661 12.8671 6.52661 12.2223C6.52661 11.5795 7.05042 11.0557 7.69518 11.0557C8.33994 11.0557 8.86375 11.5795 8.86375 12.2223C8.86375 12.8671 8.33994 13.3909 7.69518 13.3909ZM12.238 13.3909C11.5933 13.3909 11.0695 12.8671 11.0695 12.2223C11.0695 11.5795 11.5933 11.0557 12.238 11.0557C12.8828 11.0557 13.4066 11.5795 13.4066 12.2223C13.4066 12.8671 12.8828 13.3909 12.238 13.3909ZM15.6124 12.2223C15.6124 12.8671 16.1362 13.3909 16.781 13.3909C17.4258 13.3909 17.9496 12.8671 17.9496 12.2223C17.9496 11.5795 17.4258 11.0557 16.781 11.0557C16.1362 11.0557 15.6124 11.5795 15.6124 12.2223Z" fill="white" />
+                    </svg>
+                  </div>
+                  <h4 className="font-heading text-2xl mb-2">1 in 8 Women</h4>
+                  <span className="text-sm">expected to be diagnosed with invasive breast cancer in their lifetime.</span>
+                </div>
+                <div className="p-6 bg-white rounded">
+                  <div className="flex items-center justify-center w-14 h-14 mb-8 bg-green-50 rounded">
+                    <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fillRule="evenodd" clipRule="evenodd" d="M7.42233 19.8203C7.84433 19.8203 8.18733 20.1633 8.18733 20.5853C8.18733 21.0073 7.84433 21.3493 7.42233 21.3493C7.00033 21.3493 6.65833 21.0073 6.65833 20.5853C6.65833 20.1633 7.00033 19.8203 7.42233 19.8203Z" fill="#00CBA6" stroke="#00CBA6" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                      <path fillRule="evenodd" clipRule="evenodd" d="M18.6747 19.8203C19.0967 19.8203 19.4397 20.1633 19.4397 20.5853C19.4397 21.0073 19.0967 21.3493 18.6747 21.3493C18.2527 21.3493 17.9097 21.0073 17.9097 20.5853C17.9097 20.1633 18.2527 19.8203 18.6747 19.8203Z" fill="#00CBA6" stroke="#00CBA6" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M5.79288 15.083L5.12273 7.099H19.9089C20.7259 7.099 21.3529 7.823 21.2359 8.632L20.2869 15.19C20.1579 16.078 19.3979 16.736 18.5019 16.736H7.58988C6.65188 16.736 5.87088 16.018 5.79288 15.083Z" fill="#00CBA6" />
+                      <path d="M2.74988 3.25L4.82988 3.61L5.79288 15.083C5.87088 16.018 6.65188 16.736 7.58988 16.736H18.5019C19.3979 16.736 20.1579 16.078 20.2869 15.19L21.2359 8.632C21.3529 7.823 20.7259 7.099 19.9089 7.099H5.12273" stroke="#00CBA6" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M14.1254 10.795H16.8984" stroke="white" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <h4 className="font-heading text-2xl mb-2">50% of Women</h4>
+                  <span className="text-sm">diagnosed with breast cancer do not have an identifiable risk factor.</span>
+                </div>
+              </div>
+              <div className="w-full sm:w-1/2 px-4">
+                <div className="p-6 mb-8 bg-white rounded">
+                  <div className="flex items-center justify-center w-14 h-14 mb-8 bg-green-50 rounded">
+                    <svg width={20} height={20} viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.02 8.91334C15.841 8.91334 17.317 7.43734 17.317 5.61634C17.317 3.79634 15.841 2.31934 14.02 2.31934" stroke="#00CBA6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M15.5361 12.4963C16.0801 12.5333 16.6201 12.6113 17.1531 12.7293C17.8921 12.8763 18.7821 13.1793 19.0981 13.8423C19.3001 14.2673 19.3001 14.7623 19.0981 15.1873C18.7831 15.8503 17.8921 16.1533 17.1531 16.3053" stroke="#00CBA6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path fillRule="evenodd" clipRule="evenodd" d="M7.59137 13.2063C11.2814 13.2063 14.4334 13.7653 14.4334 15.9983C14.4334 18.2323 11.3014 18.8103 7.59137 18.8103C3.90137 18.8103 0.750366 18.2523 0.750366 16.0183C0.750366 13.7843 3.88137 13.2063 7.59137 13.2063Z" fill="#00CBA6" stroke="#00CBA6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path fillRule="evenodd" clipRule="evenodd" d="M7.5914 10.0188C5.1574 10.0188 3.2074 8.06776 3.2074 5.63376C3.2074 3.20076 5.1574 1.24976 7.5914 1.24976C10.0254 1.24976 11.9764 3.20076 11.9764 5.63376C11.9764 8.06776 10.0254 10.0188 7.5914 10.0188Z" fill="#00CBA6" stroke="#00CBA6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <h4 className="font-heading text-2xl mb-2">30% of Cancers </h4>
+                  <span className="text-sm">are missed on mammography alone.</span>
+                </div>
+                <div className="p-6 bg-white rounded">
+                  <div className="flex items-center justify-center w-14 h-14 mb-8 bg-green-50 rounded">
+                    <svg width={24} height={24} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fillRule="evenodd" clipRule="evenodd" d="M14.7368 2.76184H8.08376C6.02476 2.76184 4.24976 4.43084 4.24976 6.49084V17.2038C4.24976 19.3798 5.90876 21.1148 8.08376 21.1148H16.0728C18.1328 21.1148 19.8018 19.2648 19.8018 17.2038V8.03784L14.7368 2.76184Z" fill="#00CBA6" stroke="#00CBA6" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path fillRule="evenodd" clipRule="evenodd" d="M14.677 2.518V5.427C14.677 6.847 15.826 7.999 17.245 8.002C18.562 8.005 19.909 8.006 20 8" fill="#80E5D3" />
+                      <path d="M14.677 2.518V5.427C14.677 6.847 15.826 7.999 17.245 8.002C18.562 8.005 19.909 8.006 20 8L14.677 2.518Z" stroke="#80E5D3" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M14.2841 15.5577H8.88708" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                      <path d="M12.2426 10.6056H8.8866" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                    </svg>
+                  </div>
+                  <h4 className="font-heading text-2xl mb-2">60% of Women</h4>
+                  <span className="text-sm">will receive a false positive in their lifetime.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div><div className="container mx-auto py-2.5">
+        <hr className="border-t border-[#004aac] border-[0.5px] my-6" />
+      </div>
+    </div>
+  </div>
+  <div>
+    <section className="py-16 bg-gray-50">
+      <div className="container px-4 mx-auto">
+        <div className="flex flex-wrap items-center -mx-4 mb-16">
+          <div className="w-full xl:w-2/3 px-4 mb-8 xl:mb-0">
+            <h2 className="max-w-3xl font-heading text-3xl sm:text-4xl">Harness the Power of Image-Based AI to Predict Short-Term Cancer Risk</h2>
+          </div>
+          <div className="w-full xl:w-auto ml-auto px-4 xl:text-right"><a className="inline-block w-full sm:w-auto py-4 px-6 text-center font-heading font-medium text-base text-gray-900 hover-custom-blue border border-gray-900 rounded-sm transition duration-150" href="#">Get More Details</a></div>
+        </div>
+        <div className="flex flex-wrap -mx-4">
+          <div className="w-full sm:w-1/2 xl:w-1/4 px-4 mb-12 xl:mb-0">
+            <div className="max-w-xs mx-auto">
+              <div className="flex items-center justify-center w-16 h-16 mb-8 bg-white rounded">
+                <img src="https://static.shuffle.dev/uploads/files/89/891aed3d3e1847e9f17b379d6d326119edf7f96f/decision-making.svg" alt="Icon" />
+              </div>
+              <h3 className="font-heading text-lg font-medium mb-4">Enhance Clinical Decision-Making</h3>
+              <p className="leading-7">with the comprehensive analysis of patient imaging and clinical data.</p>
+            </div>
+          </div>
+          <div className="w-full sm:w-1/2 xl:w-1/4 px-4 mb-12 xl:mb-0">
+            <div className="max-w-xs mx-auto">
+              <div className="flex items-center justify-center w-16 h-16 mb-8 bg-white rounded">
+                <img src="https://static.shuffle.dev/uploads/files/89/891aed3d3e1847e9f17b379d6d326119edf7f96f/time.svg" alt="Icon" />
+              </div>
+              <h3 className="font-heading text-lg font-medium mb-4">Enable Timely Intervention</h3>
+              <p className="leading-7">with a personalized five-year patient risk assessment.</p>
+            </div>
+          </div>
+          <div className="w-full sm:w-1/2 xl:w-1/4 px-4 mb-12 sm:mb-0">
+            <div className="max-w-xs mx-auto">
+              <div className="flex items-center justify-center w-16 h-16 mb-8 bg-white rounded">
+                <img src="https://static.shuffle.dev/uploads/files/89/891aed3d3e1847e9f17b379d6d326119edf7f96f/costs-icon-2.svg" alt="Icon" />
+              </div>
+              <h3 className="font-heading text-lg font-medium mb-4">Reduce Healthcare Costs</h3>
+              <p className="leading-7">by detecting cancer early with personalized screening protocols</p>
+            </div>
+          </div>
+          <div className="w-full sm:w-1/2 xl:w-1/4 px-4">
+            <div className="max-w-xs mx-auto">
+              <div className="flex items-center justify-center w-16 h-16 mb-8 bg-white rounded">
+                <img src="https://static.shuffle.dev/uploads/files/89/891aed3d3e1847e9f17b379d6d326119edf7f96f/patient-outcomes.svg" alt="Icon" />
+              </div>
+              <h3 className="font-heading text-lg font-medium mb-4">Improve Patient Outcomes</h3>
+              <p className="leading-7">by prioritizing high-risk patients and detecting cancer early.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+
+
+            </>
+        </React.Fragment>
+    );
+}
+
